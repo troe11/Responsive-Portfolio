@@ -1,0 +1,200 @@
+/* I feel like my CSS is a mess, sorry! */
+
+
+h4 {
+	text-align: center;
+	background: teal;
+	color: white;
+	margin-top: 60%;
+	height: 30px;
+	padding-top: 10px;
+	font-size: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h4:hover {
+	margin-top: 0%;
+	padding: 100px 0 70px 0;
+	opacity: 0.75;
+	transition: .5s;
+}
+
+body {
+	background-image: url("../images/vintage-concrete.png");
+	margin: 0 ;
+}
+
+form {
+	float: left;
+	padding: 0 0 5% 5%;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+.header {
+	background: #ffffff;
+	width: 100%;
+	border: solid #dddddd;
+	margin: 0;
+}
+
+.left-pic, .bot-left-pic{
+	float: left;
+	width: 40%;
+	height: 200px;
+	background-image: url(../images/baseball.jpeg);
+	background-size:     cover;                 
+    background-repeat:   no-repeat;
+    background-position: center center;
+    margin: 25px;
+}
+
+.bot-left-pic {
+	background-image: url(../images/hollywood.jpeg);
+}
+
+.right-pic, .bot-right-pic {
+	float: right;
+	width: 40%;
+	height: 200px;
+	background-image: url(../images/baseball.jpeg);
+	background-size:     cover;                 
+    background-repeat:   no-repeat;
+    background-position: center center;
+    margin: 25px;
+}
+
+.bot-right-pic {
+	background-image: url(../images/music.jpeg);
+}
+
+.right-pic {
+	background-image: url(../images/rpg.jpeg);
+}
+
+input[type=submit] {
+    width: 100px;
+    height:40px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: #4aaaa5;
+    margin-top: 20px;
+    color: white;
+    border: 0;
+    font-size: 16px;
+}
+
+.footer {
+	bottom: 0;
+	width: 100%;
+	background-color: #666666;
+	height: 5%;
+	text-align: center;
+	padding: 15px 0;
+    border-top: 5px solid #4aaaa5;
+	color: #777777;
+	position: fixed;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+}
+
+li {
+	padding: 2% ;
+	margin-right: 10px;
+}
+
+.links {
+	float: right;
+	border-right: thin solid grey;
+	border-width: 1px;
+	margin-top: 1%;
+}
+
+.me {
+	background: #4aaaa5;
+	width: 33%;
+	color: white;
+	text-align: center;
+	padding: 2% 2%;
+	margin-left: 5%;
+	font-size: 32px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+	font-size: 16px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.about {
+	width: 650px;
+	height: auto;
+	float: left;
+	border: solid #dddddd;
+	background: #ffffff;
+	padding-bottom: 30px;
+	margin-left: 20px;
+}
+
+.connect {
+	width: 270px;
+	height: 175px;
+	float: right;
+	border: solid #dddddd;
+	background: #ffffff;
+	float: right;
+}
+
+.content {
+	margin: 30px 0 0 50px;
+	width: 960px;
+	height: auto;
+	width: 90%;
+}
+
+.ab, .social {
+	color: #4aaaa5;
+	float: left;
+	border-bottom: thin solid grey;
+	border-width: 1px;
+	margin-left: 20px;
+	padding-bottom: 5px;
+	width:90%;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.ab {
+	font-size: 32px;
+}
+
+.social {
+	font-size: 24px;
+	text-align: center;
+}
+#luke {
+	max-width: 300px;
+	max-height: 300px;
+	margin: 0 20px 10px 10px;
+	float: left;
+}
+
+#summary {
+	margin: 0 5% 2% 5%;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 1.2em;
+	color: #777777;
+}
+
+.icon-overview {
+	padding-left: 5%;
+}
+
+.icons {
+	max-height: 75px;
+	max-width: 75px;
+}
+
