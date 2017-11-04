@@ -92,6 +92,7 @@ input[type=submit] {
     border-top: 5px solid #4aaaa5;
 	color: #777777;
 	position: fixed;
+	margin-top: 10%;
 }
 
 ul {
@@ -111,6 +112,7 @@ li {
 	border-width: 1px;
 	margin-top: 1%;
 }
+
 
 .me {
 	background: #4aaaa5;
@@ -198,3 +200,65 @@ a {
 	max-width: 75px;
 }
 
+@media only screen and (max-width: 758px) {
+	.about {
+		width: auto;
+		margin: 5%;
+	}
+
+	.connect {
+		float: left;
+		width: 90%;
+		margin: 5%;
+	}
+}
+
+
+
+@media only screen and (max-width: 640px) {
+	.right-pic, .bot-right-pic, .left-pic, .bot-left{
+
+		float: left;
+		width: 50%;
+	}
+
+	img {
+		width: 100%;
+	}
+	.about {
+		width: 100%;
+		margin: 5%;
+	}
+	.connect {
+		float: left;
+		width: 90%;
+		margin: 5%;
+	}
+	.me {
+		width: 100%;
+		text-align: center;
+		float: left;
+		margin: 0;
+	}
+
+	.link {
+		width: 100%;
+		margin: 0;
+	}
+	.links  {
+		background: white;
+		padding-left: 15%;
+		margin: 0;
+
+	}
+
+	header {
+		display: block;
+		position: static;
+	}
+
+	footer {
+		position: fixed;
+		margin-top: 50px;
+	}
+}
